@@ -1,25 +1,10 @@
-.nav-bar-head {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 10px;
-}
-
 #airbnb-logo {
-  height: 50px;
-}
-
-#profile {
-  border-radius: 10px;
-  width: 150px;
+  height: 30px;
+  margin-right: 950px;
 }
 
 #avatar-img {
   height: 25px;
-  padding: 3px;
-}
-#logout {
-  border-radius: 10px;
-  width: 150px;
 }
 
 .search-bar {
