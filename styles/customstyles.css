@@ -1,0 +1,17 @@
+.navbarhead {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.searchbar {
+  display: grid;
+  grid-template-columns: ;
+}
+
+.result-card {
+  width: 200px;
+}
+
+.result-card img {
+  width: 100%;
+}
