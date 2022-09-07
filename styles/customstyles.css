@@ -1,13 +1,37 @@
-.navbarhead {
+.nav-bar-head {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
 }
 
-.searchbar {
+#airbnb-logo {
+  height: 50px;
+}
+
+#profile {
+  border-radius: 10px;
+  width: 150px;
+}
+
+#avatar-img {
+  height: 25px;
+  padding: 3px;
+}
+#logout {
+  border-radius: 10px;
+  width: 150px;
+}
+
+.search-bar {
   display: grid;
-  grid-template-columns: ;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+.results {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
 .result-card {
   width: 200px;
 }

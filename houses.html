@@ -6,48 +6,50 @@
     <link rel="stylesheet" href="styles/bootstrap.css" />
   </head>
   <body>
-    <nav class="navbarhead">
-      <img src="images/logo-airbnb.png" alt="Airbnb log" />
+    <nav class="nav-bar-head">
+      <img id="airbnb-logo" src="images/logo-airbnb.png" alt="Airbnb log" />
       <button id="profile" name="profile">
         <img
+          id="avatar-img"
           src="https://randomuser.me/api/portraits/men/11.jpg"
           alt="avatar image"
         />Tony Russo
       </button>
       <button id="logout" name="logout">Logout</button>
     </nav>
-    <div class="searchbar"></div>
-    <select class="searchbarel" name="anyloc">
-      <option>Any location</option>
-      <option>Koh Phangan</option>
-      <option>Koh Samui</option>
-      <option>Bali</option>
-    </select>
-    <select class="searchbarel" name="anyrooms">
-      <option>Any rooms</option>
-      <option>1 room</option>
-      <option>2 rooms</option>
-      <option>3 rooms</option>
-      <option>4 rooms</option>
-      <option>5 rooms</option>
-    </select>
-    <input
-      class="searchbarel"
-      type="number"
-      name="maxprice"
-      placeholder="Max price"
-    />
-    <select class="searchbarel" name="pricesort">
-      <option>Price (low to high)</option>
-      <option>Price (high to low)</option>
-    </select>
-    <input
-      class="searchbarel"
-      type="text"
-      name="housename"
-      placeholder="House name.."
-    />
-    <button>Search</button>
+    <div class="search-bar">
+      <select class="searchbarel" name="anyloc">
+        <option>Any location</option>
+        <option>Koh Phangan</option>
+        <option>Koh Samui</option>
+        <option>Bali</option>
+      </select>
+      <select class="searchbarel" name="anyrooms">
+        <option>Any rooms</option>
+        <option>1 room</option>
+        <option>2 rooms</option>
+        <option>3 rooms</option>
+        <option>4 rooms</option>
+        <option>5 rooms</option>
+      </select>
+      <input
+        class="searchbarel"
+        type="number"
+        name="maxprice"
+        placeholder="Max price"
+      />
+      <select class="searchbarel" name="pricesort">
+        <option>Price (low to high)</option>
+        <option>Price (high to low)</option>
+      </select>
+      <input
+        class="searchbarel"
+        type="text"
+        name="housename"
+        placeholder="House name.."
+      />
+      <button>Search</button>
+    </div>
     <div class="results">
       <div class="result-card">
         <img
