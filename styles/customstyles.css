@@ -6,11 +6,6 @@
   height: 20px;
 }
 
-.results {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
 .result-card {
   width: 200px;
 }
