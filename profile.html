@@ -1,8 +1,88 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8" />
     <title>Profile</title>
+    <link rel="stylesheet" href="styles/customstyles.css" />
+    <link rel="stylesheet" href="styles/bootstrap.css" />
   </head>
-  <body></body>
+  <body>
+    <!--BEGIN TOPNAV-->
+    <nav>
+      <div class="container">
+        <div class="row row-col-2">
+          <div class="col">
+            <img
+              id="airbnb-logo"
+              src="images/logo-airbnb.png"
+              alt="Airbnb log"
+            />
+          </div>
+          <div class="col text-end">
+            <a href="" type="button" class="btn btn-outline-dark">
+              <img
+                id="avatar-img"
+                src="https://randomuser.me/api/portraits/men/11.jpg"
+                alt="avatar image"
+              />Jamie Nelson
+            </a>
+            <a href="" type="button" class="btn btn-outline-dark">Logout</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--END TOPNAV-->
+    <!--BEGIN PROFILE SECTION-->
+    <div class="container py-4">
+      <div class="row row-cols-2">
+        <div class="col">
+          <form>
+            <p class="h2 border-bottom">Profile</p>
+            <div class="mb-3 text-left">
+              <label for="full-name" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="full-name"
+                placeholder="Jamie Nelson"
+              />
+            </div>
+            <div class="mb-3 text-left">
+              <label for="full-name" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="jamie@jetwithjamie.com"
+              />
+            </div>
+            <div class="mb-3 text-left">
+              <label for="profile" class="form-label">Profile Picture</label>
+            </div>
+            <div class="mb-3 text-left">
+              <img
+                id="avatar-img"
+                src="https://randomuser.me/api/portraits/men/11.jpg"
+                alt="avatar image"
+              />
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              id="full-name"
+              placeholder="https://photolocation.com"
+            />
+
+            <button type="button" class="btn btn-success">Save Changes</button>
+          </form>
+        </div>
+        <div class="col">
+          <p class="h2 border-bottom">My Listings</p>
+          <button type="button" class="btn btn-success">List a House</button>
+        </div>
+      </div>
+    </div>
+
+    <!--END PROFILE SECTION-->
+  </body>
 </html>
