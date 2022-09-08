@@ -1,6 +1,5 @@
 #airbnb-logo {
   height: 30px;
-  margin-right: 950px;
 }
 
 #avatar-img {
@@ -20,10 +19,12 @@
   width: 100%;
 }
 
-body {
+.bhi {
   background-image: url(https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399115/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/thailand.jpg);
   background-color: #black;
+  background-position: center;
   background-size: cover;
+  height: 100vh;
 }
 
 #logincard {
