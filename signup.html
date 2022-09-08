@@ -1,8 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <title>Signup</title>
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="styles/customstyles.css" />
+    <link rel="stylesheet" href="styles/bootstrap.css" />
   </head>
-  <body></body>
+  <body>
+    <!--START FORM-->
+    <div class="container py-4">
+      <div class="card text-left min-vw-25" id="signupcard">
+        <div class="card-body">
+          <img id="airbnb-logo" src="images/logo-airbnb.png" alt="Airbnb log" />
+          <form>
+            <div class="mb-3">
+              <label for="full-name" class="form-label">Your Full Name</label>
+              <input type="text" class="form-control" id="full-name" />
+            </div>
+            <div class="mb-3">
+              <label for="image-input" class="form-label"
+                >Profile Picture</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="full-name"
+                placeholder="https://"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+
+            <button type="button" class="btn btn-success">Signup</button>
+            <p>Already have an account? <a href="#">Login</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--END FORM-->
+  </body>
 </html>
