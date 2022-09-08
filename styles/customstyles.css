@@ -20,7 +20,26 @@
   width: 100%;
 }
 
-loginpagebackground {
-  background-image: url();
+body {
+  background-image: url(https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399115/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/thailand.jpg);
+  background-color: #black;
   background-size: cover;
+}
+
+#logincard {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#signupcard {
+  width: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
