@@ -34,28 +34,47 @@
     <!--START FORM-->
     <div class="container">
       <form>
+        <p class="h1">List a House</p>
         <div class="mb-3">
-          <p class="h1">List a House</p>
-          <label for="exampleFormControlInput1" class="form-label"
-            >Email address</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="exampleFormControlInput1"
-            placeholder="name@example.com"
-          />
+          <label for="title" class="form-label">Short Title</label>
+          <input class="form-control" for="title" />
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label"
-            >Example textarea</label
-          >
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            rows="3"
-          ></textarea>
+          <label for="description" class="form-label">Description</label>
+          <textarea class="form-control" for="description" rows="6"></textarea>
         </div>
+        <div class="mb-3">
+          <label for="title" class="form-label">Number of Rooms</label>
+          <input class="form-control" for="title" />
+        </div>
+        <div class="mb-3">
+          <select class="form-select" aria-label="Default select example">
+            <option value="1">Koh Phangan</option>
+            <option value="2">Koh Samui</option>
+            <option value="3">Bali</option>
+          </select>
+        </div>
+        <div class="col-auto">
+          <label for="title" class="form-label">Price (per night)</label>
+          <div class="input-group">
+            <div class="input-group-text">$</div>
+            <input type="text" class="form-control" id="autoSizingInputGroup" />
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="formFile" class="form-label">Add Photos (up to 9)</label>
+          <input class="form-control" type="file" id="formFile" />
+          <input class="form-control" type="file" id="formFile" />
+          <input class="form-control" type="file" id="formFile" />
+          <input class="form-control" type="file" id="formFile" />
+          <input class="form-control" type="file" id="formFile" />
+          <input class="form-control" type="file" id="formFile" />
+          <input class="form-control" type="file" id="formFile" />
+          <input class="form-control" type="file" id="formFile" />
+          <input class="form-control" type="file" id="formFile" />
+        </div>
+        <button type="button" class="btn btn-success">Submit</button>
       </form>
     </div>
     <!--END FORM-->
